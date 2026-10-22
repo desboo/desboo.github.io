@@ -140,11 +140,11 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 .links { display: flex; letter-spacing: 0; line-height: 1.5; padding: 0; }
 .links li { position: relative; }
 .links li a { display: block; }
-.links.style1 { gap: 1.5rem; flex-direction: row; flex-wrap: wrap; font-family: 'Ovo', serif; font-size: 1.125em; font-weight: 400; }
+.links.style1 { gap: 1.5rem; flex-direction: row; flex-wrap: wrap; font-family: Times, "Times New Roman", serif; font-size: 1.125em; font-weight: 400; }
 .links.style1 li a { color: #000000; text-decoration: none; }
 .links.style1 li a:hover { color: #FF6B00; }
 
-.links.style3 { justify-content: flex-end; gap: 1.5rem; flex-direction: row; flex-wrap: wrap; font-family: 'Ovo', serif; font-size: 0.75em; font-weight: 400; }
+.links.style3 { justify-content: flex-end; gap: 1.5rem; flex-direction: row; flex-wrap: wrap; font-family: Times, "Times New Roman", serif; font-size: 0.75em; font-weight: 400; }
 .links.style3 li a { color: #000000; text-decoration: none; }
 .links.style3 li a:hover { color: #FF6B00; }
 
@@ -154,17 +154,17 @@ hr:before { content: ''; width: 100%; background-color: #E0E0E0; height: 1px; }
 
 /* Typography */
 h1, h2, h3, p { position: relative; }
-h1.style1, h2.style1, h3.style1, p.style1 { color: #000000; font-family: 'Ovo', serif; letter-spacing: -0.05rem; width: 100%; font-size: 1.5em; line-height: 1.5; font-weight: 400; }
-h1.style2, h2.style2, h3.style2, p.style2 { color: #4F4F4F; font-family: 'Ovo', serif; font-size: 1em; line-height: 1.5; font-weight: 400; }
+h1.style1, h2.style1, h3.style1, p.style1 { color: #000000; font-family: Times, "Times New Roman", serif; letter-spacing: -0.05rem; width: 100%; font-size: 1.5em; line-height: 1.5; font-weight: 400; }
+h1.style2, h2.style2, h3.style2, p.style2 { color: #4F4F4F; font-family: Times, "Times New Roman", serif; font-size: 1em; line-height: 1.5; font-weight: 400; }
 h1.style2 a, h2.style2 a, h3.style2 a, p.style2 a { color: #FF6B00; text-decoration: none; }
 
-h1.style3, h2.style3, h3.style3, p.style3 { color: #000000; font-family: 'Ovo', serif; font-size: 1.125em; line-height: 1.5; font-weight: 400; }
-h1.style4, h2.style4, h3.style4, p.style4 { color: #000000; font-family: 'Ovo', serif; letter-spacing: -0.05rem; width: 100%; font-size: 1.25em; line-height: 1.5; font-weight: 400; }
+h1.style3, h2.style3, h3.style3, p.style3 { color: #000000; font-family: Times, "Times New Roman", serif; font-size: 1.125em; line-height: 1.5; font-weight: 400; }
+h1.style4, h2.style4, h3.style4, p.style4 { color: #000000; font-family: Times, "Times New Roman", serif; letter-spacing: -0.05rem; width: 100%; font-size: 1.25em; line-height: 1.5; font-weight: 400; }
 h1.style4 a, h2.style4 a, h3.style4 a, p.style4 a { text-decoration: none; color: #000; }
 h1.style4 a:hover, h2.style4 a:hover, h3.style4 a:hover, p.style4 a:hover { color: #FF6B00; }
 
-h1.style5, h2.style5, h3.style5, p.style5 { color: #4F4F4F; font-family: 'Ovo', serif; font-size: 0.75em; line-height: 1.5; font-weight: 400; }
-h1.style6, h2.style6, h3.style6, p.style6 { color: #000000; font-family: 'Ovo', serif; font-size: 1.125em; line-height: 1.5; font-weight: 400; }
+h1.style5, h2.style5, h3.style5, p.style5 { color: #4F4F4F; font-family: Times, "Times New Roman", serif; font-size: 0.75em; line-height: 1.5; font-weight: 400; }
+h1.style6, h2.style6, h3.style6, p.style6 { color: #000000; font-family: Times, "Times New Roman", serif; font-size: 1.125em; line-height: 1.5; font-weight: 400; }
 
 /* Avatar / Image */
 .image { display: block; line-height: 0; max-width: 100%; position: relative; }
@@ -183,7 +183,7 @@ h1.style6, h2.style6, h3.style6, p.style6 { color: #000000; font-family: 'Ovo', 
 /* Form Styles */
 form { display: flex; }
 form.style1 .inner { width: 25rem; flex-direction: row; flex-wrap: nowrap; display: flex; gap: 1rem; }
-form.style1 input[type="email"] { font-size: 1em; font-family: 'Ovo', serif; border-radius: 0.5rem; color: #4F4F4F; border: solid 1px #BABABA; height: 2.5rem; padding: 0 0.875rem; width: 100%; }
+form.style1 input[type="email"] { font-size: 1em; font-family: Times, "Times New Roman", serif; border-radius: 0.5rem; color: #4F4F4F; border: solid 1px #BABABA; height: 2.5rem; padding: 0 0.875rem; width: 100%; }
 form.style1 .actions button { display: inline-block; height: 2.5rem; line-height: 2.5rem; padding: 0 1.25rem; font-size: 1em; font-family: sans-serif; border-radius: 0.5rem; background-color: #000000; color: #FFFFFF; border: 0; cursor: pointer; transition: background-color 0.25s ease; }
 form.style1 .actions button:hover { background-color: #FF6B00; }
 
