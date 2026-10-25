@@ -104,8 +104,8 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 /* #container15 > .wrapper > .inner > :nth-child(1), */
 #container13 > .wrapper > .inner > :nth-child(1),
 #container10 > .wrapper > .inner > :nth-child(1), #container10-2 > .wrapper > .inner > :nth-child(1), #container10-3 > .wrapper > .inner > :nth-child(1), #container10-4 > .wrapper > .inner > :nth-child(1), #container10-5 > .wrapper > .inner > :nth-child(1),
-#container16 > .wrapper > .inner > :nth-child(1),
-#container18 > .wrapper > .inner > :nth-child(1),
+#container16 > .wrapper > .inner > :nth-child(1), #container16-2 > .wrapper > .inner > :nth-child(1), #container16-3 > .wrapper > .inner > :nth-child(1), #container16-4 > .wrapper > .inner > :nth-child(1),
+#container18 > .wrapper > .inner > :nth-child(1), #container18-2 > .wrapper > .inner > :nth-child(1),
 #container17 > .wrapper > .inner > :nth-child(1), #container17-2 > .wrapper > .inner > :nth-child(1),
 #container20 > .wrapper > .inner > :nth-child(1), #container20-2 > .wrapper > .inner > :nth-child(1),
 #container08 > .wrapper > .inner > :nth-child(1) { width: calc(20% + (var(--gutters) / 2)); }
@@ -116,8 +116,8 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 /* #container15 > .wrapper > .inner > :nth-child(2), */
 #container13 > .wrapper > .inner > :nth-child(2),
 #container10 > .wrapper > .inner > :nth-child(2), #container10-2 > .wrapper > .inner > :nth-child(2), #container10-3 > .wrapper > .inner > :nth-child(2), #container10-4 > .wrapper > .inner > :nth-child(2), #container10-5 > .wrapper > .inner > :nth-child(2),
-#container16 > .wrapper > .inner > :nth-child(2),
-#container18 > .wrapper > .inner > :nth-child(2),
+#container16 > .wrapper > .inner > :nth-child(2), #container16-2 > .wrapper > .inner > :nth-child(2), #container16-3 > .wrapper > .inner > :nth-child(2), #container16-4 > .wrapper > .inner > :nth-child(2),
+#container18 > .wrapper > .inner > :nth-child(2), #container18-2 > .wrapper > .inner > :nth-child(2),
 #container17 > .wrapper > .inner > :nth-child(2), #container17-2 > .wrapper > .inner > :nth-child(2),
 #container20 > .wrapper > .inner > :nth-child(2), #container20-2 > .wrapper > .inner > :nth-child(2),
 #container08 > .wrapper > .inner > :nth-child(2) { width: calc(80% + (var(--gutters) / 2)); }
@@ -250,4 +250,27 @@ ul.cv-list {
 
 ul.cv-list li {
   margin-bottom: 0.15rem;
+}
+
+.activity-item h3.style6 {
+  color: #000000;
+}
+
+.activity-item {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.activity-item > .wrapper > .inner {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.activity-item h3.style6 + .cv-list {
+  margin-top: 0 !important;
+}
+
+.activity-item .cv-list {
+  padding-left: 2rem;
+  line-height: 1.2;
 }
