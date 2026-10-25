@@ -106,7 +106,7 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 #container10 > .wrapper > .inner > :nth-child(1),
 #container16 > .wrapper > .inner > :nth-child(1),
 #container18 > .wrapper > .inner > :nth-child(1),
-#container17 > .wrapper > .inner > :nth-child(1),
+#container17 > .wrapper > .inner > :nth-child(1), #container17-2 > .wrapper > .inner > :nth-child(1),
 #container20 > .wrapper > .inner > :nth-child(1),
 #container08 > .wrapper > .inner > :nth-child(1) { width: calc(20% + (var(--gutters) / 2)); }
 
@@ -118,7 +118,7 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 #container10 > .wrapper > .inner > :nth-child(2),
 #container16 > .wrapper > .inner > :nth-child(2),
 #container18 > .wrapper > .inner > :nth-child(2),
-#container17 > .wrapper > .inner > :nth-child(2),
+#container17 > .wrapper > .inner > :nth-child(2), #container17-2 > .wrapper > .inner > :nth-child(2),
 #container20 > .wrapper > .inner > :nth-child(2),
 #container08 > .wrapper > .inner > :nth-child(2) { width: calc(80% + (var(--gutters) / 2)); }
 
@@ -232,18 +232,22 @@ form.style1 .actions button:hover { background-color: #FF6B00; }
   form.style1 .actions button { width: 100%; }
 }
 
-.section-heading > .wrapper > .inner {
-    padding-bottom: 0;
+.section-heading > .wrapper > .inner {  padding-bottom: 0;  }
+.section-heading {  margin-bottom: 0 !important;  }
+.section-heading + .container {  margin-top: -0.5rem !important;  }
+.section-heading > .wrapper > .inner > :first-child {  width: 100%;  }
+
+ul.cv-list {
+  list-style-type: disc;
+  list-style-position: outside;
+  color: #4F4F4F;
+  font-family: Times, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.25;
+  margin: 0.375rem 0 0 0;
+  padding-left: 1rem;
 }
 
-.section-heading {
-    margin-bottom: 0 !important;
-}
-
-.section-heading + .container {
-    margin-top: -0.5rem !important;
-}
-
-.section-heading > .wrapper > .inner > :first-child {
-    width: 100%;
+ul.cv-list li {
+  margin-bottom: 0.15rem;
 }
