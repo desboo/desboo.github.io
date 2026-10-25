@@ -103,11 +103,11 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 #container04 > .wrapper > .inner > :nth-child(1),
 /* #container15 > .wrapper > .inner > :nth-child(1), */
 #container13 > .wrapper > .inner > :nth-child(1),
-#container10 > .wrapper > .inner > :nth-child(1),
+#container10 > .wrapper > .inner > :nth-child(1), #container10-2 > .wrapper > .inner > :nth-child(1), #container10-3 > .wrapper > .inner > :nth-child(1), #container10-4 > .wrapper > .inner > :nth-child(1), #container10-5 > .wrapper > .inner > :nth-child(1),
 #container16 > .wrapper > .inner > :nth-child(1),
 #container18 > .wrapper > .inner > :nth-child(1),
 #container17 > .wrapper > .inner > :nth-child(1), #container17-2 > .wrapper > .inner > :nth-child(1),
-#container20 > .wrapper > .inner > :nth-child(1),
+#container20 > .wrapper > .inner > :nth-child(1), #container20-2 > .wrapper > .inner > :nth-child(1),
 #container08 > .wrapper > .inner > :nth-child(1) { width: calc(20% + (var(--gutters) / 2)); }
 
 #container07 > .wrapper > .inner > :nth-child(2),
@@ -115,11 +115,11 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 #container04 > .wrapper > .inner > :nth-child(2),
 /* #container15 > .wrapper > .inner > :nth-child(2), */
 #container13 > .wrapper > .inner > :nth-child(2),
-#container10 > .wrapper > .inner > :nth-child(2),
+#container10 > .wrapper > .inner > :nth-child(2), #container10-2 > .wrapper > .inner > :nth-child(2), #container10-3 > .wrapper > .inner > :nth-child(2), #container10-4 > .wrapper > .inner > :nth-child(2), #container10-5 > .wrapper > .inner > :nth-child(2),
 #container16 > .wrapper > .inner > :nth-child(2),
 #container18 > .wrapper > .inner > :nth-child(2),
 #container17 > .wrapper > .inner > :nth-child(2), #container17-2 > .wrapper > .inner > :nth-child(2),
-#container20 > .wrapper > .inner > :nth-child(2),
+#container20 > .wrapper > .inner > :nth-child(2), #container20-2 > .wrapper > .inner > :nth-child(2),
 #container08 > .wrapper > .inner > :nth-child(2) { width: calc(80% + (var(--gutters) / 2)); }
 
 .container.style3 { display: flex; width: 100%; align-items: center; justify-content: center; background-color: transparent; }
@@ -133,8 +133,8 @@ a { color: inherit; text-decoration: underline; transition: color 0.25s ease; }
 .container.style7.columns > .wrapper > .inner { flex-wrap: wrap; display: flex; align-items: flex-start; }
 .container.style7.columns > .wrapper > .inner > * { flex-grow: 0; flex-shrink: 0; max-width: 100%; padding: 0 0 0 var(--gutters); }
 .container.style7.columns > .wrapper > .inner > *:first-child { margin-left: calc(var(--gutters) * -1); }
-#container14 > .wrapper > .inner > :nth-child(1) { width: calc(40% + (var(--gutters) / 2)); }
-#container14 > .wrapper > .inner > :nth-child(2) { width: calc(60% + (var(--gutters) / 2)); }
+#container14 > .wrapper > .inner > :nth-child(1) { width: calc(35% + (var(--gutters) / 2)); }
+#container14 > .wrapper > .inner > :nth-child(2) { width: calc(65% + (var(--gutters) / 2)); }
 
 /* Links Nav */
 .links { display: flex; letter-spacing: 0; line-height: 1.5; padding: 0; }
