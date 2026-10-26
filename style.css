@@ -274,3 +274,15 @@ ul.cv-list li {
   padding-left: 2rem;
   line-height: 1.2;
 }
+
+p.style2 a.publication-link,
+p.style2 a.publication-link:visited {
+  color: #800020;
+  text-decoration: none;
+}
+
+p.style2 a.publication-link:hover,
+p.style2 a.publication-link:focus {
+  color: #800020;
+  text-decoration: underline;
+}
