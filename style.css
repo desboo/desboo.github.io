@@ -302,3 +302,68 @@ p.style2 a.publication-link:focus {
     order: 2;
   }
 }
+
+.publication-downloads {
+  position: absolute;
+  left: 2.5rem;
+  top: 15rem;
+  width: 12rem;
+
+  padding: 1rem;
+
+  border: 1px solid #D8D8D8;
+  background: #FFFFFF;
+
+  font-family: Times, "Times New Roman", serif;
+  
+  will-change: transform;
+}
+
+.publication-downloads-title {
+  margin-bottom: 0.75rem;
+
+  color: #000000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
+a.publication-download,
+a.publication-download:visited {
+  display: block;
+  margin-top: 0.75rem;
+
+  color: #800020;
+  text-decoration: none;
+}
+
+.publication-download-name {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+
+.publication-download-type {
+  display: block;
+  margin-top: 0.15rem;
+
+  color: #666666;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+a.publication-download:hover .publication-download-name,
+a.publication-download:focus .publication-download-name {
+  text-decoration: underline;
+}
+
+.publication-downloads {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .publication-downloads {
+    display: block;
+  }
+}
