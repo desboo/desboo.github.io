@@ -286,3 +286,19 @@ p.style2 a.publication-link:focus {
   color: #800020;
   text-decoration: underline;
 }
+
+@media (max-width: 736px) {
+
+  #main > .inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .publication-container {
+    order: 1;
+  }
+
+  .resume-container {
+    order: 2;
+  }
+}
