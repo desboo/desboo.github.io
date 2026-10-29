@@ -367,3 +367,97 @@ a.publication-download:focus .publication-download-name {
     display: block;
   }
 }
+
+#music-player-container {
+  display: none;
+
+  position: fixed;
+  right: 1.5rem;
+  bottom: 0.5rem;
+
+  width: min(25.5rem, calc(100% - 3rem));
+
+  padding: 0.6rem 0.8rem;
+
+  background: #FFFFFF;
+  border: 1px solid #C8C8C8;
+
+  z-index: 1000;
+}
+
+#music-player {
+  width: 100%;
+}
+
+.music-link {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+  font: inherit;
+  color: #800020;
+  cursor: pointer;
+}
+
+.music-link:hover,
+.music-link:focus {
+  color: #800020;
+  text-decoration: underline;
+}
+
+#video-player-container {
+  display: none;
+
+  position: fixed;
+  right: 1.5rem;
+  bottom: 0.5rem;
+
+  width: min(24rem, calc(100% - 3rem));
+
+  padding: 0.75rem;
+
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+
+  z-index: 1001;
+}
+
+#video-player {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#now-playing, #video-now-playing {
+  margin: 0 2rem 0.4rem 0;
+
+  color: #4F4F4F;
+  font-family: Times, "Times New Roman", serif;
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+#audio-close, #video-close {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.5rem;
+
+  border: 0;
+  padding: 0;
+
+  background: none;
+  color: #666666;
+
+  font-family: Times, "Times New Roman", serif;
+  font-size: 1.25rem;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+#video-close:hover,
+#video-close:focus {
+  color: #800020;
+}

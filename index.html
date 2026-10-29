@@ -43,6 +43,19 @@
           PDF ↓
         </span>
       </a>
+
+      <div class="publication-downloads-title" style="margin-top: 2em">
+        Jazz piano
+      </div>
+
+      <a class="publication-download"
+         href="#activities-and-interests-music"
+         target="_blank">
+        <span class="publication-download-name">
+          Listen
+        </span>
+      </a>
+
     </aside>
   
     <div id="main">
@@ -306,13 +319,39 @@
           </div>
         </div>
 
-        <div id="container16-2" class="style5 container columns activity-item resume-container">
+        <div id="container16-2" data-scroll-id="activities-and-interests-music" class="style5 container columns activity-item resume-container">
           <div class="wrapper">
             <div class="inner">
               <div><p class="style2">Music</p></div>
               <div>
                 <h3 class="style6">Jazz piano x 10 years</h3>
                 <ul class="style2 cv-list">
+                  <li>
+                    Listen to me play:
+                    <button type="button"
+                            class="music-link audio-link"
+                            data-audio="media/Joy%20Spring.m4a">
+                      Joy Spring
+                    </button> ·
+                    <button type="button"
+                            class="music-link audio-link"
+                            data-audio="media/Memories%20of%20Tomorrow.m4a">
+                      Memories of Tomorrow
+                    </button> ·
+                    <button type="button"
+                            class="music-link audio-link"
+                            data-audio="media/A%20Nightingale%20Sang%20in%20Berkeley%20Square.m4a">
+                      A Nightingale Sang in Berkeley Square
+                    </button>
+                  </li>
+                  <li>
+                    Watch me play 
+                    <button type="button"
+                            class="music-link video-link"
+                            data-video="media/Confirmation.mp4">
+                      Confirmation
+                    </button>
+                  </li>
                   <li>Performed at school concerts (MS-HS) and California Jazz Academy</li>
                   <li>Studied improvisation, theory, and jazz history</li>
                   <li>Jazz Band, Jazz Combo</li>
@@ -441,6 +480,32 @@
     </div>
   </div>
 
+  <div id="music-player-container">
+  
+    <button type="button"
+            id="audio-close"
+            aria-label="Close audio player">×</button>
+  
+    <div id="now-playing"></div>
+  
+    <audio id="music-player"
+           controls
+           preload="none"></audio>
+  
+  </div>
+  <div id="video-player-container">
+    <button type="button"
+            id="video-close"
+            aria-label="Close video">×</button>
+  
+    <div id="video-now-playing">Confirmation</div>
+  
+    <video id="video-player"
+           controls
+           playsinline
+           preload="metadata">
+    </video>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

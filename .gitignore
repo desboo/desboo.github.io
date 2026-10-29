@@ -1,1 +1,8 @@
 image02.jpg
+
+# Source/intermediate media files
+media/*.MOV
+media/*.mov
+media/*.mp3
+media/ConfirmationWide.mp4
+media/ConfirmationWide.MOV
