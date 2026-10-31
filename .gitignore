@@ -6,3 +6,5 @@ media/*.mov
 media/*.mp3
 media/ConfirmationWide.mp4
 media/ConfirmationWide.MOV
+modality-awareness-abstract*
+!modality-awareness-abstract.pdf
