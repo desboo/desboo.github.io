@@ -353,11 +353,18 @@ a.publication-download:visited {
   text-transform: uppercase;
 }
 
-a.publication-download:hover .publication-download-name,
 a.publication-download:focus .publication-download-name {
+  text-decoration: none;
+}
+
+a.publication-download:hover .publication-download-name {
   text-decoration: underline;
 }
 
+a.publication-download:focus-visible {
+  outline: 1px solid #800020;
+  outline-offset: 2px;
+}
 .publication-downloads {
   display: none;
 }
@@ -401,12 +408,19 @@ a.publication-download:focus .publication-download-name {
   cursor: pointer;
 }
 
-.music-link:hover,
 .music-link:focus {
+  text-decoration: none;
+}
+
+.music-link:hover {
   color: #800020;
   text-decoration: underline;
 }
 
+.music-link:focus-visible {
+  outline: 1px solid #800020;
+  outline-offset: 2px;
+}
 #video-player-container {
   display: none;
 
